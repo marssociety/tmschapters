@@ -43,7 +43,7 @@
     "gulp-sourcemaps": "2.6.2",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
-    "merge2": "^1.2.1",
+    "merge2": "^1.2.2",
     "popper.js": "^1.13.0",
     "run-sequence": "^2.2.1",
     "understrap": "^0.8.0",
