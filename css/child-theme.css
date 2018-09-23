@@ -10803,7 +10803,9 @@ body {
   border-color: #000 !important; }
 
 #content {
-  padding-top: 30px;
+  padding-top: 30px; }
+
+#index_wrapper {
   height: 100%; }
 
 a, a:visited, a:active, a:hover {
@@ -10870,6 +10872,9 @@ a:hover {
 
 .widget {
   padding: 20px 0; }
+
+#wrapper-footer-full {
+  background-color: #300000; }
 
 #wrapper-footer {
   padding: 30px 0;

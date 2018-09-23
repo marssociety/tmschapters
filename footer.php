@@ -20,27 +20,7 @@ $the_theme = wp_get_theme();
 
 			<div class="row secondary" id="footer-sidebar">
 
-				<div class="col-md-4" id="footer-sidebar1">
-					<?php
-						if(is_active_sidebar('footer-sidebar-1')){
-							dynamic_sidebar('footer-sidebar-1');
-						}
-					?>
-				</div>
-				<div class="col-md-4" id="footer-sidebar2">
-					<?php
-						if(is_active_sidebar('footer-sidebar-2')){
-							dynamic_sidebar('footer-sidebar-2');
-						}
-					?>
-				</div>
-				<div class="col-md-4" id="footer-sidebar3">
-					<?php
-						if(is_active_sidebar('footer-sidebar-3')){
-							dynamic_sidebar('footer-sidebar-3');
-						}
-					?>
-				</div>
+				<?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
 			</div><!-- row end -->
 
