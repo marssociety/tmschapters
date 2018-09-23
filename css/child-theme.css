@@ -10804,7 +10804,7 @@ body {
 
 #content {
   padding-top: 30px;
-  height: 100vh; }
+  height: 100%; }
 
 a, a:visited, a:active, a:hover {
   color: red; }
