@@ -7076,7 +7076,7 @@ button.bg-dark:focus {
     top: 0;
     z-index: 1020; } }
 
-.sr-only {
+.sr-only, .screen-reader-text {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -8362,9 +8362,6 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: inherit; }
 
 .wp-caption-text {
-  font-size: inherit; }
-
-.screen-reader-text {
   font-size: inherit; }
 
 .alignleft {
@@ -10794,3 +10791,104 @@ a.skip-link {
 
 .gallery-caption {
   display: block; }
+
+body {
+  background-image: url("/wp-content/themes/tmschapters/img/BG_PathfinderTP.png");
+  font-family: 'Open Sans',sans-serif; }
+
+.wrapper-fluid .container, .page-wrapper .container, #content {
+  background-color: #fff; }
+
+.navbar-toggler {
+  border-color: #000 !important; }
+
+#content {
+  padding-top: 30px;
+  height: 100vh; }
+
+a, a:visited, a:active, a:hover {
+  color: red; }
+
+a:hover {
+  text-decoration: underline; }
+
+.wrapper {
+  padding: 0; }
+
+.logo img {
+  display: inline-block;
+  width: 110px;
+  height: auto; }
+
+.brand {
+  display: inline-block;
+  font-family: 'Russo One', sans-serif;
+  font-size: 32pt;
+  text-decoration: none; }
+
+.navbar {
+  clear: both;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000; }
+
+.navbar a, .brand a {
+  color: #444; }
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  padding-right: 1rem !important; }
+
+.navbar a:hover, .brand a:hover {
+  text-decoration: none; }
+
+#navbar-widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+#navbar-widget li {
+  display: inline-block; }
+
+.widget_polylang img {
+  width: 30px;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle; }
+
+.assistive-text {
+  display: none; }
+
+.byline {
+  display: none; }
+
+.widget {
+  padding: 20px 0; }
+
+#wrapper-footer {
+  padding: 30px 0;
+  background-color: #300000;
+  color: #fff; }
+
+#wrapper-footer a, #wrapper-footer a:visited, #wrapper-footer a:active {
+  color: #fff;
+  text-decoration: underline; }
+
+#footer-sidebar3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+#footer-sidebar3 li a {
+  text-decoration: none; }
+
+.flex-fill {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
