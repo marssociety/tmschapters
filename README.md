@@ -5,7 +5,7 @@ Authored by: James Burk <jburk@marssociety.org>
 The following is from the Understrap-Child README.
 
 # understrap-child
-Basic Child Theme for UnderStrap Theme Framework: https://github.com/holger1411/understrap
+Basic Child Theme for UnderStrap Theme Framework: https://github.com/understrap/understrap
 
 ## How it works
 Understrap Child Theme shares with the parent theme all PHP files and adds its own functions.php on top of the UnderStrap parent theme's functions.php.
