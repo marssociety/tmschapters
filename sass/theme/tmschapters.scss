@@ -45,6 +45,14 @@ a:hover {
   text-decoration:none;
 }
 
+h1.brand {
+  margin-bottom:0;
+}
+
+h1.brand a {
+  color:red !important;
+}
+
 .navbar {
   clear:both;
   border-top:3px solid #000;
@@ -94,6 +102,16 @@ a:hover {
 
 .widget {
   padding:20px 0;
+}
+
+a.btn-secondary,a.btn-secondary:visited {
+  color:#FFF;
+}
+
+.btn-primary {
+  background-color:red;
+  border-color:red;
+  color:#FFF;
 }
 
 #wrapper-footer-full {
